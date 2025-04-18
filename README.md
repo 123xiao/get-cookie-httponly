@@ -9,6 +9,20 @@
 - 支持一键复制所有 cookie
 - 支持所有网站
 
+## 软件截图
+
+### 主界面
+
+![主界面](images/introduce1.png)
+
+### Cookie 展示效果
+
+![Cookie展示](images/introduce2.png)
+
+### 复制功能
+
+![复制功能](images/introduce3.png)
+
 ## 安装方法
 
 1. 下载本仓库并解压
@@ -36,17 +50,3 @@
 
 - 由于浏览器安全限制，某些网站可能会限制 cookie 的访问
 - 本扩展仅适用于 Chrome 浏览器
-
-## 软件截图
-
-### 主界面
-
-![主界面](images/介绍1.png)
-
-### Cookie 展示效果
-
-![Cookie展示](images/介绍2.png)
-
-### 复制功能
-
-![复制功能](images/介绍3.png)
