@@ -1,4 +1,12 @@
-# Cookie 获取工具
+# 万能 Cookie 获取工具，突破 httponly 限制！
+
+![版本](https://img.shields.io/badge/版本-1.1.0-blue) ![开发工具](https://img.shields.io/badge/IDE-VSCode-green) ![谷歌](https://img.shields.io/badge/Chrome-最新版-4285F4) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E) ![HTML](https://img.shields.io/badge/HTML-5-E34F26) ![CSS](https://img.shields.io/badge/CSS-3-1572B6)
+
+[![GitHub stars](https://img.shields.io/github/stars/123xiao/get-cookie-httponly)](https://github.com/123xiao/get-cookie-httponly/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/123xiao/get-cookie-httponly)](https://github.com/123xiao/get-cookie-httponly/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/123xiao/get-cookie-httponly)](https://github.com/123xiao/get-cookie-httponly/issues)
+
+![Visitor Count](https://profile-counter.glitch.me/123xiao-get-cookie-httponly/count.svg)
 
 这是一个 Chrome 浏览器扩展，可以获取当前网站的所有 cookie，包括 HttpOnly 标记的 cookie。
 
