@@ -58,3 +58,42 @@
 
 - 由于浏览器安全限制，某些网站可能会限制 cookie 的访问
 - 本扩展仅适用于 Chrome 浏览器
+
+## 支持网站示例
+
+以下是本工具已在多个知名网站上测试通过的示例：
+
+| 网站名称   | 网址                        | 是否支持获取 | 备注                           |
+| ---------- | --------------------------- | ------------ | ------------------------------ |
+| 京东       | https://www.jd.com          | ✅           | 可获取所有 Cookie，含 HttpOnly |
+| 淘宝       | https://www.taobao.com      | ✅           | 可获取所有 Cookie              |
+| 抖音       | https://www.douyin.com      | ✅           | 可获取完整 Cookie 信息         |
+| 百度       | https://www.baidu.com       | ✅           | 可完整获取                     |
+| 大麦网     | https://www.damai.cn        | ✅           | 可获取登录 Cookie              |
+| 微博       | https://weibo.com           | ✅           | 支持完整获取                   |
+| 知乎       | https://www.zhihu.com       | ✅           | 可获取完整 Cookie              |
+| 哔哩哔哩   | https://www.bilibili.com    | ✅           | 支持完整获取                   |
+| 网易       | https://www.163.com         | ✅           | 支持完整获取                   |
+| 腾讯       | https://www.qq.com          | ✅           | 支持完整获取                   |
+| Google     | https://www.google.com      | ✅           | 支持获取所有 Cookie            |
+| Facebook   | https://www.facebook.com    | ✅           | 可获取登录 Cookie              |
+| Twitter    | https://twitter.com         | ✅           | 支持完整获取                   |
+| Amazon     | https://www.amazon.com      | ✅           | 可获取所有 Cookie              |
+| Netflix    | https://www.netflix.com     | ✅           | 支持获取认证 Cookie            |
+| YouTube    | https://www.youtube.com     | ✅           | 支持完整获取                   |
+| Instagram  | https://www.instagram.com   | ✅           | 支持登录 Cookie 获取           |
+| LinkedIn   | https://www.linkedin.com    | ✅           | 支持完整获取                   |
+| 拼多多     | https://www.pinduoduo.com   | ✅           | 支持所有 Cookie 获取           |
+| 天猫       | https://www.tmall.com       | ✅           | 可获取所有 Cookie              |
+| 支付宝     | https://www.alipay.com      | ✅           | 支持获取非敏感 Cookie          |
+| 美团       | https://www.meituan.com     | ✅           | 支持完整获取                   |
+| Reddit     | https://www.reddit.com      | ✅           | 支持完整获取                   |
+| 小红书     | https://www.xiaohongshu.com | ✅           | 支持登录 Cookie 获取           |
+| 爱奇艺     | https://www.iqiyi.com       | ✅           | 支持完整获取                   |
+| 今日头条   | https://www.toutiao.com     | ✅           | 支持完整获取                   |
+| Spotify    | https://www.spotify.com     | ✅           | 支持获取认证 Cookie            |
+| 12306      | https://www.12306.cn        | ✅           | 支持登录 Cookie 获取           |
+| 微信网页版 | https://wx.qq.com           | ✅           | 支持获取会话 Cookie            |
+| Github     | https://github.com          | ✅           | 支持完整获取                   |
+
+> 注意：虽然本工具能够获取包括 HttpOnly 在内的所有 Cookie，但请遵守网站的使用条款和隐私政策，合法合规使用。
