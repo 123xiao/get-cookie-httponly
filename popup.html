@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cookie获取工具</title>
+    <style>
+      body {
+        width: 400px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      button:hover {
+        background-color: #3367d6;
+      }
+      #cookieContainer {
+        max-height: 300px;
+        overflow-y: auto;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      .cookie-item {
+        padding: 5px;
+        border-bottom: 1px solid #eee;
+      }
+      .httpOnly {
+        color: #d93025;
+        font-weight: bold;
+      }
+      #copyButton {
+        background-color: #34a853;
+      }
+      #copyButton:hover {
+        background-color: #2e8b57;
+      }
+      .empty-message {
+        text-align: center;
+        color: #666;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cookie获取工具</h1>
+    <button id="getCookiesButton">获取当前网站Cookie</button>
+    <button id="copyButton">复制所有Cookie</button>
+    <div id="cookieContainer">
+      <div class="empty-message">点击上方按钮获取Cookie</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
