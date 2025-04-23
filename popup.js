@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
       const currentTab = tabs[0];
       const url = new URL(currentTab.url);
-      // 去除www.这样可以获取全部子域名的cookie
-      const domain = url.hostname.replace(/^www\./, "");
-
+      const domain = url.hostname;
+      //获取顶级域名
+      const topDomain = domain.split(".").slice(-2).join(".");
       // 使用chrome.cookies API获取cookie（包括HttpOnly）
-      chrome.cookies.getAll({ domain: domain }, function (cookies) {
+      chrome.cookies.getAll({ domain: topDomain }, function (cookies) {
         allCookies = cookies;
         displayCookies(cookies);
       });
